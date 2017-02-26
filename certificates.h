@@ -87,3 +87,4 @@ const uint8_t local_cert[LOCAL_CERT_LEN] = {
 #endif
 
 #endif /* ifndef _CERTIFICATES_H_ */
+
