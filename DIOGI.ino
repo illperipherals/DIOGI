@@ -187,7 +187,7 @@ void loop()
 
   if (available == 4)
   {
-    int receivedValue = Wire.read() << 8 | Wire.read();
+    int receivedValue = Wire.read();
     Serial.println(receivedValue);
   }
   else
